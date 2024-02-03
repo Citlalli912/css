@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.elemento{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    transform-origin: center center;
+    transition: backgroud-color 5s ease, height 2s ease, width 2s ease, transform 2s ease;
+}
+.elemento:hover{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    transform: rotate(90deg);
+}

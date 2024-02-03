@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+    color: black;   
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin: 0;
+    position: relative;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100px;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: #333;
+    width: 120px;
+    text-align: center;
+}
+nav a:hover{
+    background-color: aliceblue;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(194, 199, 199);
+}
+.mostrar-submenu:hover.submenu{
+    display:block ;
+}
+#box{
+    background-color: beige;
+    margin: 100px;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 0 #744f4f;
+}
+#titulo{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    /*esto es un comentario*/
+    text-transform: uppercase;
+    font-weight: 100;
+    font-style: italic;
+    text-shadow: 5px 10px 10px #333;
+    text-align: center;
+}

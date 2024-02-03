@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(202, 196, 196, 0.973);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkorange;
+
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav{
+    flex: 0;
+    margin: 10px;
+}
